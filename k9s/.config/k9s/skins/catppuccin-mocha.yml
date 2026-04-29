@@ -1,0 +1,61 @@
+# Catppuccin Mocha skin for K9s
+# https://github.com/catppuccin/k9s
+k9s:
+  body:
+    fgColor: "#cdd6f4"
+    bgColor: "#1e1e2e"
+    logoColor: "#89b4fa"
+  info:
+    fgColor: "#f5c2e7"
+    sectionColor: "#cdd6f4"
+  frame:
+    border:
+      fgColor: "#89b4fa"
+      focusColor: "#89b4fa"
+    menu:
+      fgColor: "#cdd6f4"
+      keyColor: "#f5c2e7"
+      numKeyColor: "#fab387"
+    crumbs:
+      fgColor: "#cdd6f4"
+      bgColor: "#1e1e2e"
+      activeColor: "#1e1e2e"
+    status:
+      newColor: "#89dceb"
+      modifyColor: "#89b4fa"
+      addColor: "#a6e3a1"
+      errorColor: "#f38ba8"
+      pendingColor: "#fab387"
+      completedColor: "#94e2d5"
+      killColor: "#cba6f7"
+      deletedColor: "#f38ba8"
+  views:
+    charts:
+      bgColor: default
+      chartColor: "#89b4fa"
+    table:
+      fgColor: "#cdd6f4"
+      bgColor: "#1e1e2e"
+      cursorFgColor: "#11111b"
+      cursorBgColor: "#89b4fa"
+      markColor: "#f9e2af"
+      header:
+        fgColor: "#f9e2af"
+        bgColor: "#1e1e2e"
+        sorterColor: "#94e2d5"
+    xray:
+      fgColor: "#cdd6f4"
+      bgColor: "#1e1e2e"
+      cursorColor: "#89b4fa"
+      graphicColor: "#cba6f7"
+      showGrid: true
+    yaml:
+      keyColor: "#89b4fa"
+      colonColor: "#94e2d5"
+      valueColor: "#cdd6f4"
+    logs:
+      fgColor: "#cdd6f4"
+      bgColor: "#1e1e2e"
+      indicator:
+        fgColor: "#89b4fa"
+        bgColor: "#1e1e2e"
